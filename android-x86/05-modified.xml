@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="android" name="android" remote="los-tv-x86" />
+  <project path="art" name="android_art" remote="los-tv-x86" groups="pdk" />
+  <project path="bionic" name="android_bionic" remote="los-tv-x86" groups="pdk" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="los-tv-x86" groups="pdk" />
+  <project path="external/mksh" name="android_external_mksh" remote="los-tv-x86" groups="pdk" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="los-tv-x86" groups="pdk" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="los-tv-x86" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="los-tv-x86" groups="pdk" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="los-tv-x86" groups="pdk,sysui-studio" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="los-tv-x86" groups="pdk-fs" />
+  <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="los-tv-x86" groups="pdk" />
+  <project path="packages/modules/NetworkStack" name="android_packages_modules_NetworkStack" remote="los-tv-x86" groups="pdk-cw-fs,pdk-fs" />
+  <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="los-tv-x86" groups="pdk-cw-fs,pdk-fs" />
+  <project path="system/apex" name="android_system_apex" remote="los-tv-x86" groups="pdk" />
+  <project path="system/core" name="android_system_core" remote="los-tv-x86" groups="pdk" />
+  <project path="system/media" name="android_system_media" remote="los-tv-x86" groups="pdk" />
+  <project path="system/linkerconfig" name="android_system_linkerconfig" remote="los-tv-x86" groups="pdk" />
+  <project path="system/vold" name="android_system_vold" remote="los-tv-x86" groups="pdk" />
+  <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" groups="pdk,sysui-studio" remote="los-tv-x86" />
+  <project path="vendor/lineage" name="android_vendor_lineage" remote="los-tv-x86" />
+</manifest>
