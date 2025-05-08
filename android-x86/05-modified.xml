@@ -4,6 +4,10 @@
   <project path="art" name="android_art" remote="los-tv-x86" groups="pdk" />
   <project path="bionic" name="android_bionic" remote="los-tv-x86" groups="pdk" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="los-tv-x86" groups="pdk" />
+  <project path="build/soong" name="android_build_soong" remote="los-tv-x86" groups="pdk,tradefed" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
   <project path="external/mksh" name="android_external_mksh" remote="los-tv-x86" groups="pdk" />
   <project path="frameworks/av" name="android_frameworks_av" remote="los-tv-x86" groups="pdk" />
   <project path="frameworks/base" name="android_frameworks_base" remote="los-tv-x86" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
