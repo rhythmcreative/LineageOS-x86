@@ -6,6 +6,7 @@
 	<remove-project name="LineageOS/android_bionic" />
     <remove-project name="LineageOS/android_bootable_recovery" />
     <remove-project name="LineageOS/android_build_soong" />
+    <remove-project name="LineageOS/android_device_lineage_atv" />
     <remove-project name="platform/external/drm_hwcomposer" />
     <remove-project name="platform/external/libdrm" />
     <remove-project name="platform/external/minigbm" />
