@@ -31,4 +31,5 @@
     <remove-project name="platform/system/linkerconfig" />
     <remove-project name="LineageOS/android_system_vold" />
     <remove-project name="LineageOS/android_vendor_lineage" />
+    <remove-project name="platform/external/swiftshader" />
 </manifest>
