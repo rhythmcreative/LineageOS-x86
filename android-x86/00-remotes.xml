@@ -12,8 +12,8 @@
   <remote name="hm" fetch="https://github.com/hmtheboy154" />
   <remote name="axon" fetch="https://github.com/axonasif/" />
   <remote name="sg" fetch="https://github.com/supremegamers" />
-  <remote name="los-tv-x86"
-          fetch="https://github.com/LineageOS-TV-x86"
+  <remote name="los-x86"
+          fetch="https://github.com/LineageOS"
           revision="lineage-21.0" />
 
 </manifest>
