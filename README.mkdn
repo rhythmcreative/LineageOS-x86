@@ -1,0 +1,16 @@
+LineageOS TV x86
+===========
+
+Getting started
+---------------
+
+To get started with Android/LineageOS, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
+
+To initialize your local repository using the LineageOS trees, use a command like this:
+```
+repo init -u https://github.com/LineageOS-TV-x86/android.git -b lineage-21.0 --git-lfs
+```
+Then to sync up:
+```
+repo sync
+```
