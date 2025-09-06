@@ -32,4 +32,5 @@
     <remove-project name="LineageOS/android_system_vold" />
     <remove-project name="LineageOS/android_vendor_lineage" />
     <remove-project name="platform/external/swiftshader" />
+    <remove-project name="device/generic/x86_64" />
 </manifest>
